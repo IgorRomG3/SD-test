@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  margin: 0 auto; }
+  @media screen and (max-width: 767px) {
+    .container {
+      width: 90%;
+      padding: 0 5%; } }
+  @media screen and (min-width: 768px) {
+    .container {
+      width: 750px; } }
+  @media screen and (min-width: 992px) {
+    .container {
+      width: 960px; } }
+  @media screen and (min-width: 1200px) {
+    .container {
+      width: 1170px; } }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+button {
+  border: 0; }
+
+.clearfix {
+  clear: both; }
+
+.button {
+  width: 436px;
+  height: 70px;
+  background-color: #ff621f;
+  color: #fff;
+  font-family: "PT Sans";
+  font-size: 30px;
+  font-weight: 700;
+  border-bottom: 7px solid #ff332a; }
+  @media screen and (max-width: 767px) {
+    .button {
+      width: 100%; } }
+  @media screen and (max-width: 767px) {
+    .button {
+      font-size: 20px; } }
+  .button-bot {
+    border: 0; }
+  .button-sign-up {
+    width: 100%;
+    box-sizing: border-box; }
+
+header {
+  margin-bottom: 38px;
+  padding-top: 26px;
+  text-align: center; }
+  header .logo-wrap {
+    margin-bottom: 58px;
+    padding-bottom: 27px;
+    border-bottom: 1px solid #000; }
+    header .logo-wrap .sub-text {
+      color: #18374b;
+      font-family: "PT Sans";
+      font-size: 27px;
+      font-weight: 400; }
+  header .title-wrap .title {
+    font-family: Circe;
+    font-weight: 700;
+    color: #ff621f;
+    font-size: 34px;
+    text-transform: uppercase; }
+  header .title-wrap .title-text {
+    margin: 30px 0 20px 0;
+    font-family: Circe;
+    font-weight: 700;
+    color: #ff621f;
+    color: #020001;
+    font-size: 30px;
+    text-transform: uppercase; }
+    @media screen and (max-width: 430px) {
+      header .title-wrap .title-text {
+        font-size: 15px; } }
+
+.footer {
+  padding: 50px 0;
+  height: 140px;
+  text-align: center;
+  box-sizing: border-box; }
+  .footer .networks .networks-item {
+    width: 50px;
+    height: 50px;
+    display: inline-block; }
+    .footer .networks .networks-item .networks-img {
+      height: 100%;
+      width: 100%; }
+
+.about-webinar {
+  margin-bottom: 43px;
+  padding-bottom: 33px;
+  border-bottom: 2px dashed #64666b;
+  text-align: center; }
+  .about-webinar .start {
+    padding: 36px 23px 48px 42px;
+    width: 50%;
+    height: 1270px;
+    background-color: #eaeaea;
+    float: right;
+    text-align: center;
+    box-sizing: border-box; }
+    @media screen and (max-width: 767px) {
+      .about-webinar .start {
+        width: 100%;
+        float: none;
+        height: auto; } }
+    .about-webinar .start .start-title {
+      margin-bottom: 18px;
+      color: #2b2e35;
+      font-family: "PT Sans";
+      font-size: 21px;
+      font-weight: 700;
+      text-transform: uppercase; }
+    .about-webinar .start .timer {
+      text-align: center; }
+    .about-webinar .start .timer-item {
+      display: inline-block; }
+      .about-webinar .start .timer-item:nth-child(n+2) {
+        margin-left: 8px; }
+      .about-webinar .start .timer-item .timer-number {
+        margin-bottom: 11px;
+        width: 67px;
+        height: 67px;
+        border-radius: 9px;
+        background-color: #2b2e35;
+        color: #fff;
+        font-family: Circe;
+        font-size: 48px;
+        line-height: 63px;
+        font-weight: 700;
+        text-transform: uppercase; }
+        @media screen and (max-width: 409px) {
+          .about-webinar .start .timer-item .timer-number {
+            width: 40px;
+            height: 40px;
+            font-size: 30px;
+            line-height: 42px; } }
+      .about-webinar .start .timer-item .timer-text {
+        color: #2b2e35;
+        font-family: Circe;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase; }
+        @media screen and (max-width: 409px) {
+          .about-webinar .start .timer-item .timer-text {
+            font-size: 10px; } }
+    .about-webinar .start .know-title {
+      margin: 39px 0 71px 0;
+      color: #2b2e35;
+      font-family: "PT Sans";
+      font-size: 24px;
+      font-weight: 700;
+      text-transform: uppercase; }
+    .about-webinar .start .know {
+      padding-left: 40px;
+      text-align: left;
+      list-style-image: url("../img/checked.png"); }
+      .about-webinar .start .know .know-item {
+        color: #2b2e35;
+        font-family: "PT Sans";
+        font-size: 24px;
+        font-weight: 400; }
+        .about-webinar .start .know .know-item:nth-child(n+2) {
+          margin-top: 10px; }
+        @media screen and (max-width: 991px) {
+          .about-webinar .start .know .know-item {
+            font-size: 18px; } }
+  .about-webinar .about {
+    padding: 37px 32px 43px 32px;
+    width: 50%;
+    height: 1270px;
+    background-color: #ff621f;
+    text-align: center;
+    box-sizing: border-box; }
+    @media screen and (max-width: 991px) {
+      .about-webinar .about {
+        padding: 38px 19px 48px 41px; } }
+    @media screen and (max-width: 767px) {
+      .about-webinar .about {
+        width: 100%;
+        height: auto; } }
+    .about-webinar .about .date-wrap {
+      margin-bottom: 65px;
+      height: 121px; }
+      .about-webinar .about .date-wrap .calendar {
+        width: 126px;
+        height: 121px;
+        float: left; }
+        @media screen and (max-width: 500px) {
+          .about-webinar .about .date-wrap .calendar {
+            width: 40%;
+            font-size: 15px; } }
+        .about-webinar .about .date-wrap .calendar .month {
+          width: 100%;
+          height: 29px;
+          color: #fff;
+          font-family: "PT Sans";
+          font-size: 22px;
+          font-weight: 700;
+          background-color: #2b2e35; }
+          @media screen and (max-width: 500px) {
+            .about-webinar .about .date-wrap .calendar .month {
+              font-size: 15px; } }
+        .about-webinar .about .date-wrap .calendar .day {
+          background: #fff;
+          color: #c2c2c2;
+          font-family: "PT Sans";
+          font-size: 73px;
+          font-weight: 700; }
+          @media screen and (max-width: 500px) {
+            .about-webinar .about .date-wrap .calendar .day {
+              font-size: 35px; } }
+      .about-webinar .about .date-wrap .date {
+        width: 60%;
+        float: right; }
+        @media screen and (max-width: 991px) {
+          .about-webinar .about .date-wrap .date {
+            width: 40%; } }
+        .about-webinar .about .date-wrap .date .when {
+          padding-bottom: 17px;
+          border-bottom: 1px dashed #fff;
+          color: #fff;
+          font-family: Circe;
+          font-weight: 700;
+          text-transform: uppercase;
+          font-size: 30px;
+          text-align: left; }
+          @media screen and (max-width: 500px) {
+            .about-webinar .about .date-wrap .date .when {
+              font-size: 15px; } }
+        .about-webinar .about .date-wrap .date .time {
+          color: #fff;
+          font-family: "PT Sans";
+          font-size: 24px;
+          font-weight: 400;
+          text-transform: uppercase;
+          text-align: left; }
+          @media screen and (max-width: 500px) {
+            .about-webinar .about .date-wrap .date .time {
+              font-size: 12px; } }
+    .about-webinar .about .speaker .role {
+      color: #fff;
+      font-family: Georgia;
+      font-size: 22px;
+      font-style: italic; }
+    .about-webinar .about .speaker .name {
+      margin: 19px 0 42px 0;
+      color: #fff;
+      font-family: "PT Sans";
+      font-size: 22px;
+      font-weight: 700;
+      text-transform: uppercase; }
+    .about-webinar .about .speaker .about-speaker {
+      padding-left: 40px;
+      list-style: disc;
+      text-align: left; }
+      .about-webinar .about .speaker .about-speaker .about-item {
+        color: #fff;
+        font-family: "PT Sans";
+        font-size: 18px;
+        font-weight: 400; }
+        .about-webinar .about .speaker .about-speaker .about-item:nth-child(n+2) {
+          margin-top: 20px; }
+  .about-webinar .format {
+    margin: 50px 0;
+    color: #2b2e35;
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 24px; }
+    @media screen and (max-width: 500px) {
+      .about-webinar .format {
+        font-size: 16px; } }
+  .about-webinar .for {
+    margin-top: 30px;
+    font-family: "PT Sans";
+    font-size: 36px;
+    color: #2b2e35;
+    font-weight: 400; }
+    @media screen and (max-width: 500px) {
+      .about-webinar .for {
+        font-size: 20px; } }
+
+.intro {
+  padding: 63px 0 21px 0;
+  background-color: #f8f8f8;
+  box-sizing: border-box; }
+  .intro .container-intro {
+    padding: 0 63px 0 8px;
+    box-sizing: border-box;
+    padding: 0; }
+  .intro .intro-title {
+    margin-bottom: 32px;
+    text-align: center;
+    color: #2b2e35;
+    font-family: "PT Sans";
+    font-size: 36px;
+    font-weight: 700; }
+    @media screen and (max-width: 500px) {
+      .intro .intro-title {
+        font-size: 20px; } }
+  .intro .intro-text {
+    margin-bottom: 20px;
+    color: #2b2e35;
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-weight: 400; }
+    @media screen and (max-width: 500px) {
+      .intro .intro-text {
+        font-size: 16px; } }
+
+.collage {
+  padding: 33px 0 26px 0;
+  background-color: #efefef;
+  text-align: center; }
+  .collage .collage-img {
+    width: 100%; }
+
+.sign-up .sign-up-text {
+  margin: 50px 0;
+  color: #2b2e35;
+  font-family: "PT Sans";
+  font-size: 26px;
+  font-weight: 400; }
+  @media screen and (max-width: 500px) {
+    .sign-up .sign-up-text {
+      font-size: 16px; } }

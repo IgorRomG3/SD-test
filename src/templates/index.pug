@@ -1,0 +1,57 @@
+extends layouts/layouts.pug
+
+
+block main
+    main.main
+        .container
+            section.about-webinar
+                .start
+                    h2.start-title До старта трансляции осталось…
+                    ul.timer
+                        each item in timer
+                            li.timer-item
+                                .timer-number=item.num
+                                p.timer-text=item.text
+                    .clearfix
+                    h3.know-title Вот всего лишь малая часть из того, что ты узнаешь на вебинаре:
+                    ul.know
+                        each item in know
+                            li.know-item!=item.text
+                .about
+                    .date-wrap
+                        .calendar
+                            p.month май
+                            p.day 17
+                        .date
+                            p.when Среда #[br] 17 мая
+                            p.time 20:00 МСК
+                        .clearfix
+                    .speaker
+                        img(class="photo",src="img/speaker.png", alt="speaker-photo")
+                        p.role Спикер
+                        p.name Иван #[br]ЗИМБИЦКИЙ
+                        ul.about-speaker
+                            each item in about
+                                li.about-item= item.text
+                    .clearfix
+                p.format.
+                    Формат участия: живое присутствие в онлайн#[br] 
+                    (повтора и записи не будет) всего 500 мест
+                button.button.button-bot Для кого вебинар? 
+                p.for Для существующих предпринимателей с чистым доходом#[br] от 150 000 рублей в месяц
+        section.intro
+            .container.container-intro
+                h2.intro-title.
+                    Наконец-то, раскрыта технология как предпринимателю управлять прибыльным бизнесом (и даже не одним), при этом оставаясь свободным, здоровым и довольным жизнью, без стресса и необходимости жить на работе!
+                each item in introText
+                    p.intro-text!= item.text
+        section.collage
+            .container
+                img(class="collage-img", src="img/colage.png",alt="collage")
+        section.sign-up
+            .container
+                p.sign-up-text И я знаю, что это возможно и для вас…
+                p.sign-up-text #[b Приходите на мой вебинар и раскрою вам свою технология в деталях. ]
+                button.button.button-sign-up Да! Забронировать место сейчас! &#62;&#62;
+
+
